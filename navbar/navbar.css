@@ -209,3 +209,11 @@ a{
   width: 20px;
 }
 
+.A{
+  color:gray;
+  text-decoration-line: none;
+}
+.A:hover{
+  color: white ;
+  text-decoration-line: none;
+}

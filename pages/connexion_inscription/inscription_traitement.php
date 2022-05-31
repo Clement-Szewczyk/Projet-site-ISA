@@ -42,9 +42,9 @@
                                 'token' => bin2hex(openssl_random_pseudo_bytes(64))
                             ));
                             // On redirige avec le message de succès
-                            //header('Location:inscription.php?reg_err=success');
+                            header('Location:inscription.php?reg_err=success');
 
-                            header('Refresh:5 ; Location:landing.php');
+                            //header('Refresh:5 ; Location:landing.php');
                         }else{ header('Location: inscription.php?reg_err=password'); die();}
                     }else{ header('Location: inscription.php?reg_err=email'); die();}
                 }else{ header('Location: inscription.php?reg_err=email_length'); die();}

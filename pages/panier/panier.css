@@ -151,3 +151,11 @@
 .marge{
     margin-top: 310px;
 }
+
+.titre-produit{
+  color: black;
+}
+
+.titre-produit:hover{
+  color: black;
+}

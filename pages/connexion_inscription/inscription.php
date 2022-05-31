@@ -9,6 +9,7 @@
             <link rel="stylesheet" href="../../bibliothèque/bootstrap.css">
             <link rel="stylesheet" href="../../navbar/navbar.css">
             <link rel="stylesheet" href="../../bibliothèque/bootstrap-5.1.3/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../../header_footer/style.css">
 
             <link rel="stylesheet" href="./styles.css" >
             <title>Inscription</title>
@@ -40,7 +41,7 @@
                 </ul>  
                 <form class="d-flex">
                   <button class="btn btn-outline-dark color" type="submit">
-                  <a href="../panier/panier.html">
+                  <a class="A" href="../panier/panier.html">
                 <img src="../../Images/shopping-cart.png" alt="shopping-cart" class="cart">
                      <strong>Panier</strong>
                      <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
@@ -129,6 +130,48 @@
             </form>
             <p class="text-center"><a href="connexion.php">Connexion</a></p>
         </div>
+        <footer class="">
+            <!-- Footer Start-->
+            <div class="footer-main background">
+                <div class="orange">
+                <div class="footer-area footer-padding">
+                    <div class="container-fluid">
+                        <div class="row  justify-content-between">
+                            <div class="col-lg-3 col-md-4 col-sm-8"></div>
+                                <div class="single-footer-caption mb-30">
+                                    <!-- logo -->
+                                    <div class="footer-logo">
+                                            <a href="/"><img style="width:30%" loading="lazy" src="https://user-images.githubusercontent.com/97881881/164652408-4a8ddd19-ae9b-4f11-91ab-e5c37c0ebf74.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>   
+                                    <div class="footer-tittle">
+                                        <div class="footer-pera">
+                                            <p class="info1">Jeune start-up novatrice spécialisée dans la vente de produit divers, aussi bien des produits électroniques, mécanique, textiles... Nous avons pour but d’étendre notre e-commerce à une échelle européenne dans les 5 ans à venir</p>
+                                        </div>
+                                        <div>
+                                            <a class="lien" href="../Mention-legal/mention-legal.html">Mention legal</a>
+                                        </div>
+                                        
+                                    </div>           
+                           
+                        <!-- Copy-Right -->
+                        <div class="row align-items-center">
+                            <div class="col-xl-12 ">
+                                <div class="footer-copy-right">
+                                    <p>
+                                        Copyright &copy; 2022 All rights reserved | Adibaba
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+            <!-- Footer End-->
+        </footer>
         <style>
             .login-form {
                 width: 340px;
