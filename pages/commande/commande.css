@@ -1,0 +1,9 @@
+div.alert{
+    display: flex;
+    padding-left: 9%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin: 10% 30% 10% 30%;
+    border-radius: 2rem;
+
+}

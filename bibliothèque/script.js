@@ -6,3 +6,6 @@ var typed = new Typed('.typed', {
     backSpeed: 0,
     loop: false
   });
+
+// AOS
+ AOS.init();
