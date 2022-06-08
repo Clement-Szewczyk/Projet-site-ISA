@@ -65,7 +65,7 @@
               
             </div>
           </nav>
-<script src="../bibliothèque/bootstrap-5.1.3/js/bootstrap.min.js"></script>
+<script src="../../bibliothèque/bootstrap-5.1.3/js/bootstrap.min.js"></script>
         <div class="container">
             <div class="col-md-12">
                 <?php 
