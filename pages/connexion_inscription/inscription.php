@@ -128,7 +128,7 @@
                     <button type="submit" class="btn btn-primary btn-block couleur">Inscription</button>
                 </div>   
             </form>
-            <p class="text-center"><a href="connexion.php">Connexion</a></p>
+            <p class="text-center"><a href="index.php">Connexion</a></p>
         </div>
         <footer class="">
             <!-- Footer Start-->
