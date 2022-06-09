@@ -1,3 +1,13 @@
+<?php
+    try
+    {
+        $bdd = new PDO('mysql:host=mysql-clementszewczyk.alwaysdata.net; dbname=clementszewczyk_test; charset=utf8', '263261','Bonjour.Coucou');
+    }catch(Exeption $e)
+    {
+        die('Erreur de connexion : '. $e->getMessage());
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -35,7 +45,7 @@
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./pages/contact/contact.php">
-                      <img src="../Images/telephone.svg" alt="tel">
+                      <img src="./Images/telephone.svg" alt="tel">
                       <strong>Nous contacter</strong>
                     </a>
                   </li>
@@ -87,8 +97,13 @@
                             <!-- Sale badge-->
                             <div class="badge bg-secondary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nouveauté</div>
                             <!-- Product image-->
-                            <img class="card-img-top img" src="https://user-images.githubusercontent.com/97881881/164550334-ef8b684f-eb8c-464f-afda-c8c9020b5c91.jpg" alt="..." />
-                            <!-- Product details-->
+                            <?php
+                                $go = $bdd->query('SELECT * FROM image WHERE Nom = \'BAC\'');
+                                $data = $go->fetch();
+
+                                echo "<img class='card-img-top img' src=Images/".$data['lien']." >";
+                            ?>
+                            <!--Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     
@@ -117,8 +132,13 @@
                             <!-- Sale badge-->
                             <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promos</div>
                             <!-- Product image-->
-                            <img class="card-img-top img" src="https://user-images.githubusercontent.com/97881881/164548879-8364b727-b414-44bc-8d86-ede52eb289c6.jpg" alt="..." />
-                            <!-- Product details-->
+                            <?php
+                                $go = $bdd->query('SELECT * FROM image WHERE Nom = \'PSG\'');
+                                $data = $go->fetch();
+
+                                echo "<img class='card-img-top img' src=Images/".$data['lien']." >";
+                            ?>
+                           <!--Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
@@ -139,7 +159,12 @@
                             <!-- Sale badge-->
                             <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">-50%</div>
                             <!-- Product image-->
-                            <img class="card-img-top img" src="https://user-images.githubusercontent.com/97881881/164754911-568390f2-5754-47af-ad91-bfbc0d3323cc.png" alt="..." />
+                            <?php
+                                $go = $bdd->query('SELECT * FROM image WHERE Nom = \'Esp\'');
+                                $data = $go->fetch();
+
+                                echo "<img class='card-img-top img' src=Images/".$data['lien']." >";
+                            ?>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
@@ -166,7 +191,12 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top img" src="https://user-images.githubusercontent.com/97881881/164759165-5d8ce32e-123c-4ba2-a90e-08d42fdb6b61.png" alt="..." />
+                            <?php
+                                $go = $bdd->query('SELECT * FROM image WHERE Nom = \'Eau\'');
+                                $data = $go->fetch();
+
+                                echo "<img class='card-img-top img' src=Images/".$data['lien']." >";
+                            ?>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
@@ -192,7 +222,12 @@
                             <!-- Sale badge-->
                             <div class="badge bg-secondary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Nouveauté</div>
                             <!-- Product image-->
-                            <img class="card-img-top img" src="https://user-images.githubusercontent.com/97881881/164760688-f4ae57f1-013f-4db6-a102-c578db56e5e3.png" alt="..." />
+                            <?php
+                                $go = $bdd->query('SELECT * FROM image WHERE Nom = \'boeuf\'');
+                                $data = $go->fetch();
+
+                                echo "<img class='card-img-top img' src=Images/".$data['lien']." >";
+                            ?>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
@@ -211,7 +246,12 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top img" src="https://user-images.githubusercontent.com/97881881/164761065-29377822-b0ac-49a0-806d-ef4710f334e5.png" alt="..." />
+                            <?php
+                                $go = $bdd->query('SELECT * FROM image WHERE Nom = \'CD\'');
+                                $data = $go->fetch();
+
+                                echo "<img class='card-img-top img' src=Images/".$data['lien']." >";
+                            ?>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
@@ -237,7 +277,12 @@
                             <!-- Sale badge-->
                             <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Tendance</div>
                             <!-- Product image-->
-                            <img class="card-img-top img" src="https://user-images.githubusercontent.com/97881881/164761855-c38968b5-7757-4af2-96aa-b479c9fba767.png" alt="..." />
+                            <?php
+                                $go = $bdd->query('SELECT * FROM image WHERE Nom = \'Clio\'');
+                                $data = $go->fetch();
+
+                                echo "<img class='card-img-top img' src=Images/".$data['lien']." >";
+                            ?>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
@@ -259,7 +304,12 @@
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top img" src="https://user-images.githubusercontent.com/97881881/164757850-f704a967-80cd-4a90-845e-9ad3fec42ed0.jpg" alt="..." />
+                            <?php
+                                $go = $bdd->query('SELECT * FROM image WHERE Nom = \'PQ\'');
+                                $data = $go->fetch();
+
+                                echo "<img class='card-img-top img' src=Images/".$data['lien']." >";
+                            ?>
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
