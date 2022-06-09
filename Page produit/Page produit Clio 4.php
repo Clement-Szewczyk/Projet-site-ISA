@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Côte de Boeuf</title>
+        <title>Clio 4</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -55,7 +55,7 @@
             </div>
           </nav>
               <script src="../bibliothèque/bootstrap-5.1.3/js/bootstrap.min.js"></script>
-
+        
               <header class=" py-3 fonce marge">
                 <div class="clair">
                 <div class="container d-flex align-items-center flex-column">
@@ -76,20 +76,21 @@
                 </div>
             </div>
             </header>
-        <!-- Product section-->
+         <!-- Product section-->
         <section class="py-5 marge">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="row gx-4 gx-lg-5 align-items-center">
-                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src= "https://user-images.githubusercontent.com/97881881/169656997-3104203f-261c-417c-ba05-46ba33ad5ec3.png" alt="..." /></div>
+                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src= "https://user-images.githubusercontent.com/97881881/169657881-74e8fea8-2ff4-4f96-898f-89d1bbb9e70e.jpg" alt="..." /></div>
                     <div class="col-md-6">
-                        <div class="small mb-1">#0005</div>
-                        <h1 class="display-5 fw-bolder">Côte de bœuf 1,4kg</h1>
+                        <div class="small mb-1">#0007</div>
+                        <h1 class="display-5 fw-bolder">Clio 4</h1>
                         <div class="fs-5 mb-5">
                            <!-- Product price-->
-                           65€
+                           <span class="text-muted text-decoration-line-through">10500€ </span>
+                           4500€
                             
                         </div>
-                        <p class="lead"> Côte de Boeuf d'un kilo et demi pour tout type de grandes occasions ou pour les petites et grandes. Notre viande est sélectionnée parmi le meilleurs éleveurs et traiteurs de la région. Nous sommes sur un marché local. Ce produit risque d'être rapidement victime de son succès</p>
+                        <p class="lead"> Vente d'une clio 4, moteur 300 chevaux, sortie d'usine. Toute option, écran led à l'avant, contient toutes les radios sauf RTL2. Moteur Diesel, malheureusement elle ne roule pas à l'électrique. Ce produit risque d'être rapidement victime de son succès</p>
                         <div class="d-flex">
                             <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
                             <button class="btn btn-outline-dark flex-shrink-0" type="button">
@@ -131,7 +132,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Bac.html">Voir options</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Bac.php">Voir options</a></div>
                             </div>
                         </div>
                     </div>
@@ -153,7 +154,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Maillot PSG.html">Voir options</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Maillot PSG.php">Voir options</a></div>
                             </div>
                         </div>
                     </div>
@@ -182,33 +183,36 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit ESP 32.html">Voir détails</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit ESP 32.php">Voir détails</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
-                            <!-- Sale badge-->
-                            <div class="badge bg-primary text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Tendance</div>
+                            
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://user-images.githubusercontent.com/97881881/169655285-4ed90b17-07be-40fa-9b9f-acef52aa87f8.png" alt="..." />
+                            <img class="card-img-top" src="https://user-images.githubusercontent.com/97881881/169655024-8f3e76e7-447f-446b-aae0-56403fc330f2.jpg" alt="..." />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Clio 4</h5>
-                                    
+                                    <h5 class="fw-bolder">Eau de mon bain Ruby Nikara</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                    </div>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">10500€ </span>
-                                    4500€
+                                    1500€
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Clio 4.html">Voir détails</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Ruby Nikara.php">Voir détails</a></div>
                             </div>
                         </div>
                     </div>
+                    
+                
                 </div>
             </div>
         </section>

@@ -151,7 +151,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Maillot PSG.html">Voir options</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Maillot PSG.php">Voir options</a></div>
                             </div>
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit ESP 32.html">Voir détails</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit ESP 32.php">Voir détails</a></div>
                             </div>
                         </div>
                     </div>
@@ -205,7 +205,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Ruby Nikara.html">Voir détails</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Ruby Nikara.php">Voir détails</a></div>
                             </div>
                         </div>
                     </div>
@@ -228,7 +228,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Clio 4.html">Voir détails</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Clio 4.php">Voir détails</a></div>
                             </div>
                         </div>
                     </div>

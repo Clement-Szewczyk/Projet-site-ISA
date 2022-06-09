@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>PQ-OM</title>
+        <title>Shop Item - Start Bootstrap Template</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -13,8 +13,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link rel="stylesheet" href="../../bibliothèque/bootstrap-5.1.3/css/bootstrap.min.css">
         <link rel="stylesheet" href="../../navbar/navbar.css">
-        <link rel="stylesheet" href="../header_footer/style.css">
         <link rel="stylesheet" href="./page_produit.css">
+        <link rel="stylesheet" href="../header_footer/style.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
@@ -55,7 +55,6 @@
             </div>
           </nav>
               <script src="../bibliothèque/bootstrap-5.1.3/js/bootstrap.min.js"></script>
-
               <header class=" py-3 fonce marge">
                 <div class="clair">
                 <div class="container d-flex align-items-center flex-column">
@@ -77,19 +76,19 @@
             </div>
             </header>
         <!-- Product section-->
-        <section class="py-5 ">
+        <section class="py-5 marge">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="row gx-4 gx-lg-5 align-items-center">
-                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src= "https://user-images.githubusercontent.com/97881881/169658047-13e6e635-85b5-4363-8525-e7905f4b51f7.png" alt="..." /></div>
+                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src= "https://user-images.githubusercontent.com/97881881/169657495-20e6d83f-c433-42f7-ba85-462c4d1721e8.png" alt="..." /></div>
                     <div class="col-md-6">
-                        <div class="small mb-1">#0008</div>
-                        <h1 class="display-5 fw-bolder">Papier toilette OM</h1>
+                        <div class="small mb-1">#0006</div>
+                        <h1 class="display-5 fw-bolder">CD Wejdene</h1>
                         <div class="fs-5 mb-5">
                            <!-- Product price-->
-                           Gratuit
+                           14,99€
                             
                         </div>
-                        <p class="lead"> Idéal pour s'essuyer après n'importe quel type de besoin. Papier très agréable et non rugeux. Parfait pour les supporters marseillais souhaitant supporter dignement leur équipe, notamment leur élimination en Conférence League ainsi que leur 25 trophées en 120 ans d'existance. Ce produit risque d'être rapidement victime de son succès</p>
+                        <p class="lead"> Nouveau CD de Wejdene, dernière édition, disque de platine et d'argent. A écouter en boucle pour les moins de 16 ans. Très peu de dingueries à part : Anissa et Coco. Ce produit risque d'être rapidement victime de son succès... ou pas</p>
                         <div class="d-flex">
                             <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
                             <button class="btn btn-outline-dark flex-shrink-0" type="button">
@@ -131,7 +130,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Bac.html">Voir options</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Bac.php">Voir options</a></div>
                             </div>
                         </div>
                     </div>
@@ -153,7 +152,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Maillot PSG.html">Voir options</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Maillot PSG.php">Voir options</a></div>
                             </div>
                         </div>
                     </div>
@@ -182,7 +181,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit ESP 32.html">Voir détails</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit ESP 32.php">Voir détails</a></div>
                             </div>
                         </div>
                     </div>
@@ -205,7 +204,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Clio 4.html">Voir détails</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Clio 4.php">Voir détails</a></div>
                             </div>
                         </div>
                     </div>

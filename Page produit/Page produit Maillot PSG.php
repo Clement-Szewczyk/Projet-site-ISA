@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>ESP-32</title>
+        <title>Maillot PSG</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -79,18 +79,17 @@
         <section class="py-5 marge">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="row gx-4 gx-lg-5 align-items-center">
-                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src= "https://user-images.githubusercontent.com/97881881/169655974-ec2572a6-06e2-4e90-b9e9-97ed3fb3eaa7.png" alt="..." /></div>
+                    <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src= "https://user-images.githubusercontent.com/97881881/169655501-f7655c4b-cc7c-4835-aaef-3f65e0789e10.png" alt="..." /></div>
                     <div class="col-md-6">
-                        <div class="small mb-1">#0003</div>
-                        <h1 class="display-5 fw-bolder">ESP 32 caméra </h1>
+                        <div class="small mb-1">#0002</div>
+                        <h1 class="display-5 fw-bolder">Maillot Third PSG Neymar 10</h1>
                         <div class="fs-5 mb-5">
                             <!-- Product price-->
-                            <!-- Product price-->
-                            <span class="text-muted text-decoration-line-through">4€</span>
-                            1,99€
+                            <span class="text-muted text-decoration-line-through">95€</span>
+                            55€
                             
                         </div>
-                        <p class="lead"> ESP 32 muni d'une caméra. Il est équipé de connexion wifi et bluetooth. Cet ESP 32 permettra de réaliser bon nombre de projets électroniques. Vous pourrez notamment vous amuser avec la caméra dont il dispose. Ce produit risque d'être rapidement victime de son succès... ou pas</p>
+                        <p class="lead"> 3ème maillot du Paris-Saint Germain, floqué Neymar JR numéro 10. Maillot Noir et blanc. ICI C'EST PARIS. Ce produit risque d'être rapidement victime de son succès</p>
                         <div class="d-flex">
                             <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
                             <button class="btn btn-outline-dark flex-shrink-0" type="button">
@@ -132,29 +131,36 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Bac.html">Voir options</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Bac.php">Voir options</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Sale badge-->
-                            <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Promos</div>
+                            <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">-50%</div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://user-images.githubusercontent.com/97881881/169653889-537399f6-2b3e-4131-b6b8-cc77b5d5c49e.png" alt="..." />
+                            <img class="card-img-top" src="https://user-images.githubusercontent.com/97881881/169654191-6092557d-cc09-4ea9-ba54-5f9ce81d02c8.png" alt="..." />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Maillot Third PSG Neymar 10</h5>
+                                    <h5 class="fw-bolder">ESP-32 caméra</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                
+                                    </div>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">95€</span>
-                                    55€
+                                    <span class="text-muted text-decoration-line-through">4€</span>
+                                    1,99€
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Maillot PSG.html">Voir options</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit ESP 32.php">Voir détails</a></div>
                             </div>
                         </div>
                     </div>
@@ -178,7 +184,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Ruby Nikara.html">Voir détails</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Ruby Nikara.php">Voir détails</a></div>
                             </div>
                         </div>
                     </div>
@@ -201,7 +207,7 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Clio 4.html">Voir détails</a></div>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="./Page produit Clio 4.php">Voir détails</a></div>
                             </div>
                         </div>
                     </div>
