@@ -23,7 +23,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="../Decouvert/decouvert.html">
+            <a class="nav-link" aria-current="page" href="../Decouvert/decouvert.php">
               <img src="../../Images/person.svg" alt="Personne"><strong>Nous-découvrir</strong></a>
           </li>
           <li class="nav-item">
@@ -106,7 +106,7 @@
             <div class="row">
                 <div class="col-6" data-aos="slide-right" data-aos-offset= "400">
                     <div class="personne">
-                        <div class="center"><img class="taille_img" src="../../Images/person.svg" class="img" alt="équipier"></div>
+                        <div class="center"><img class="taille_img" src="../../Images/erwan.jpg" class="img" alt="équipier"></div>
                         <h3>Erwan KERGOZIEN</h3>
                         <p>20 ans (et oui), breton de père en fils, je suis né et fière de l'être. Actuellement étudiant dans une école d'ingénieur et espère l'être encore l'année prochaine, je suis aussi développeur web en tant qu'apprentis. 
                           Voici mon téléphone : 07 ** ** ** 09
