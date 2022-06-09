@@ -41,7 +41,7 @@
                 </ul>  
                 <form class="d-flex">
                   <button class="btn btn-outline-dark color" type="submit">
-                  <a class="A" href="../panier/panier.html">
+                  <a class="A" href="../panier/panier.php">
                 <img src="../../Images/shopping-cart.png" alt="shopping-cart" class="cart">
                      <strong>Panier</strong>
                      <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
