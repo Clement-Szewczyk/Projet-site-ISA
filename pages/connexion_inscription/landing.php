@@ -30,7 +30,7 @@
   <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="../acceuil/acceuil.html">
+              <a class="navbar-brand" href="../../index.html">
                 <img src="../../Images/adibaba.png" alt="logo" class="img-logo">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,7 +89,7 @@
                         <hr />
                         <a href="deconnexion.php" class="btn btn-danger btn-lg">Déconnexion</a>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#change_password">
+                        <button type="button" class="btn mdp btn-info btn-lg" data-toggle="modal" data-target="#change_password">
                           Changer mon mot de passe
                         </button>
                 </div>

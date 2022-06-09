@@ -4,7 +4,7 @@
          */
     try 
     {
-        $bdd = new PDO("mysql:host=localhost;dbname=test;charset=utf8", "root", "");
+        $bdd = new PDO("mysql:host=mysql-clementszewczyk.alwaysdata.net;dbname=clementszewczyk_test;charset=utf8", "263261", "Bonjour.Coucou");
     }
     catch(PDOException $e)
     {
