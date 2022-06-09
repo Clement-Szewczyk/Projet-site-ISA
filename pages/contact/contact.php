@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-8"></div> 
                       <div class="text-center text-white">
-                           <h1 class="display-4 fw-bolder text-white">Vente de produits divers</h1>
+                           <h1 class="display-4 fw-bolder text-white"><strong>Vente de produits divers</strong></h1>
                            <p class="lead fw-normal text-white-50 mb-0">Entreprise <span style="color: blue;">Fra</span><span style="color: white ;">nça</span><span style="color: red;">ise</span>, localisée dans le département du Nord</p>
                          </div>
                     
