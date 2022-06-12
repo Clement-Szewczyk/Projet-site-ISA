@@ -1,0 +1,53 @@
+main {
+    width: 75%;
+    margin: 80px auto;
+  }
+  
+  .premier {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  .list {
+    padding: 0;
+  }
+  
+  .article {
+    margin-bottom: 40px;
+    text-align: justify;
+  }
+  
+  .article p {
+    margin: 0;
+  }
+  
+  .Titre2 {
+    position: relative;
+    width: fit-content;
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+  }
+  
+  .Titre1 {
+    position: relative;
+    width: fit-content;
+    padding-bottom: 4px;
+  }
+  
+  .Titre1::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    background-color: #ff6502;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 100px;
+  }
+
+  .espace{
+    margin-top: 310px;
+  }
+  

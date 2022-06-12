@@ -217,3 +217,8 @@ a{
   color: white ;
   text-decoration-line: none;
 }
+
+.blanc{
+  background-color: white !important;
+  border-radius: 10px;
+}

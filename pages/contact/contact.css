@@ -112,3 +112,7 @@ section p{
   font-size: 0.9em;
   letter-spacing: 0.3em;
 }
+
+.long{
+  width: 90% !important;
+}

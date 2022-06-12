@@ -14,7 +14,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="../../index.php">
+        <a class="navbar-brand" href="../../acceuil/index.php">
           <img src="../../Images/adibaba.png" alt="logo" class="img-logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,11 +23,11 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../Decouvert/decouvert.php">
+              <a class="nav-link" aria-current="page" href="../Decouvert/decouvert.html">
                 <img src="../../Images/person.svg" alt="Personne"><strong>Nous-découvrir</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../contact/contact.php">
+              <a class="nav-link" href="../contact/contact.html">
                 <img src="../../Images/telephone.svg" alt="tel">
                 <strong>Nous contacter</strong>
               </a>
@@ -38,7 +38,7 @@
           </ul>  
           <form class="d-flex">
             <button class="btn btn-outline-dark color" type="submit">
-              <a class="A" href="../panier/panier.php">
+              <a class="A" href="../panier/panier.html">
                 <img src="../../Images/shopping-cart.png" alt="shopping-cart" class="cart">
                      <strong>Panier</strong>
                      <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
@@ -77,56 +77,54 @@
       <ul class="list">
         <li>
           <article class="article">
-            <h2 class="Titre2">Conditions générales de vente :</h2>
+            <h2 class="Titre2">Edition du site :</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-              facilis ipsam pariatur error explicabo accusamus blanditiis alias.
-              Quo architecto eius quam porro, repellat assumenda dicta eos
-              facere. Totam maiores odio optio tenetur error ratione temporibus
-              expedita, aperiam nostrum nulla quisquam voluptatem magni soluta.
-              Voluptatibus eligendi nulla assumenda cum in totam odio
-              blanditiis, soluta numquam veritatis non?
+              En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, il est précisé aux utilisateurs du site internet http://clementszewczyk.alwaysdata.net/index.php l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi : </br></br>
+              Propriétaire du site : AdiBaba - Contact : adibaba@gmail.com 0123456789 - Adresse : 18 rue Saint Jean-Baptiste, 59000 Lille.</br></br>
+              Hébergeur : Always Data</br></br>
+              Délégué à la protection des données : Clément Szewczyk </br></br>
+              Autres contributeurs : Thibault Vandevelde, Niels-Andy Ella Peke, Erwan Kergozien, Théo Rouiller</br></br>
             </p>
           </article>
         </li>
         <li>
           <article class="article">
-            <h2 class="Titre2">Une autre partie :</h2>
+            <h2 class="Titre2">Propriétés intellectuelle et contrefaçons :</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
-              repudiandae neque sunt, provident, officiis dolorem laudantium
-              vitae praesentium iure repellat illum, sapiente non maxime!
+              AdiBaba est propriétaire des droits de propriété intellectuelle et détient les droits d’usage sur tous les éléments accessibles sur le site internet, notamment les textes, images, graphismes, logos, vidéos, architecture, icônes et sons.</br></br>
+              Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de AdiBaba.</br></br>
+              Toute exploitation non autorisée du site ou de l’un quelconque des éléments qu’il contient sera considérée comme constitutive d’une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle </br></br>
             </p>
           </article>
         </li>
         <li>
           <article class="article">
-            <h2 class="Titre2">Encore un titre :</h2>
+            <h2 class="Titre2">Limitation de responsabilité :</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-              suscipit, accusantium quis repudiandae dolorum aut quae tenetur
-              eligendi soluta eos distinctio aperiam repellendus quas dolorem
-              nobis modi maxime, odit cumque rem mollitia asperiores tempora
-              fugiat. Sequi rem hic reiciendis dolore debitis reprehenderit
-              illum numquam, quia ullam sit maiores atque, quas corporis amet
-              dolores beatae fuga qui?
+              AdiBaba ne pourra être tenu pour responsable des dommages directs et indirects causés au matériel de l’utilisateur, lors de l’accès au site http://clementszewczyk.alwaysdata.net/index.php.</br></br>
+              AdiBaba décline toute responsabilité quant à l’utilisation qui pourrait être faite des informations et contenus présents sur http://clementszewczyk.alwaysdata.net/index.php.</br></br>
+              AdiBaba s’engage à sécuriser au mieux le site http://clementszewczyk.alwaysdata.net/index.php, cependant sa responsabilité ne pourra être mise en cause si des données indésirables sont importées et installées sur son site à son insu.</br></br>
+              Des espaces interactifs (espace contact ou commentaires) sont à la disposition des utilisateurs. AdiBaba se réserve le droit de supprimer, sans mise en demeure préalable, tout contenu déposé dans cet espace qui contreviendrait à la législation applicable en France, en particulier aux dispositions relatives à la protection des données.</br></br>
+              Le cas échéant, AdiBaba se réserve également la possibilité de mettre en cause la responsabilité civile et/ou pénale de l’utilisateur, notamment en cas de message à caractère raciste, injurieux, diffamant, ou pornographique, quel que soit le support utilisé (texte, photographie …).</br></br>
             </p>
           </article>
         </li>
         <li>
           <article class="article">
-            <h2 class="Titre2">Encore un titre :</h2>
+            <h2 class="Titre2">CNIL et gestion des données personnelles :</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatum similique ratione aspernatur voluptatem accusamus
-              numquam impedit id sit? Ipsam ex quam id ea optio, natus vitae
-              voluptate commodi aspernatur vel, doloremque expedita iusto
-              nostrum distinctio, fuga itaque autem fugiat. Facilis corrupti,
-              mollitia aliquid aut molestiae doloribus minus voluptatem adipisci
-              ipsum accusantium id, nam ab rerum saepe explicabo? Quod totam
-              amet expedita optio delectus tempore voluptatem consequuntur quia
-              deleniti nobis aperiam earum ab, dolor reprehenderit provident
-              modi commodi veritatis suscipit. Obcaecati.
+              Conformément aux dispositions de la loi 78-17 du 6 janvier 1978 modifiée, l’utilisateur du site http://clementszewczyk.alwaysdata.net/index.php dispose d’un droit d’accès, de modification et de suppression des informations collectées. Pour exercer ce droit, envoyez un message à notre Délégué à la Protection des Données : Clément Szewczyk.
+            </p>
+          </article>
+        </li>
+        <li>
+          <article class="article">
+            <h2 class="Titre2">Liens hypertextes et cookies :</h2>
+            <p>
+              Le site http://clementszewczyk.alwaysdata.net/index.php contient des liens hypertextes vers d’autres sites et dégage toute responsabilité à propos de ces liens externes ou des liens créés par d’autres sites vers http://clementszewczyk.alwaysdata.net/index.php.</br></br>
+              La navigation sur le site http://clementszewczyk.alwaysdata.net/index.php est susceptible de provoquer l’installation de cookie(s) sur l’ordinateur de l’utilisateur.</br></br>
+              Un "cookie" est un fichier de petite taille qui enregistre des informations relatives à la navigation d’un utilisateur sur un site. Les données ainsi obtenues permettent d'obtenir des mesures de fréquentation, par exemple.</br></br>
+              Vous avez la possibilité d’accepter ou de refuser les cookies en modifiant les paramètres de votre navigateur. Aucun cookie ne sera déposé sans votre consentement.</br></br>
             </p>
           </article>
         </li>
@@ -152,8 +150,14 @@
                                       <p class="info1">Jeune start-up novatrice spécialisée dans la vente de produit divers, aussi bien des produits électroniques, mécanique, textiles... Nous avons pour but d’étendre notre e-commerce à une échelle européenne dans les 5 ans à venir</p>
                                   </div>
                                   <div>
-                                    <a class="lien" href="../Mention-legal/mention-legal.html">Mention legal</a>
+                                    <a class="lien" href="../Mention-legal/mention-legal.php">Mention legal</a>
                                 </div>
+                                <div>
+                                  <a class="lien" href="../Mention-legal/conditions-generales.php">Conditions-generales</a>
+                              </div>
+                              <div>
+                                <a class="lien" href="../Mention-legal/politique.php">Politique</a>
+                            </div>
                               </div>           
                      
                   <!-- Copy-Right -->

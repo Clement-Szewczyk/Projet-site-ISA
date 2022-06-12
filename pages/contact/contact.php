@@ -37,15 +37,13 @@
             <a class="nav-link button" href="../connexion_inscription/index.php" ><strong>Se Connecter</strong></a>
           </li>
         </ul>  
-        <form class="d-flex">
-          <button class="btn btn-outline-dark color" type="submit">
-            <a class="A" href="../panier/panier.php">
-              <img src="../../Images/shopping-cart.png" alt="shopping-cart" class="cart">
-                   <strong>Panier</strong>
-                   <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-            </a>
-          </button>
-        </form>
+        <a href="../panier/panier.php">
+                    <button class="btn btn-outline-dark color" type="submit">
+                        <img src="../../Images/shopping-cart.png" alt="shopping-cart" class="cart">
+                        <strong>Panier</strong>
+                        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </button>
+                 </a>
       </div>
       
     </div>
@@ -121,8 +119,14 @@
                                     <p class="info1">Jeune start-up novatrice spécialisée dans la vente de produit divers, aussi bien des produits électroniques, mécanique, textiles... Nous avons pour but d’étendre notre e-commerce à une échelle européenne dans les 5 ans à venir</p>
                                 </div>
                                 <div>
-                                  <a class="lien" href="../Mention-legal/mention-legal.html">Mention legal</a>
+                                    <a class="lien" href="../Mention-legal/mention-legal.php">Mention legal</a>
+                                </div>
+                                <div>
+                                  <a class="lien" href="../Mention-legal/conditions-generales.php">Conditions-generales</a>
                               </div>
+                              <div>
+                                <a class="lien" href="../Mention-legal/politique.php">Politique</a>
+                            </div>
                                 
                             </div>           
                    

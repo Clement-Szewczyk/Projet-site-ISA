@@ -23,7 +23,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse blanc" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="../Decouvert/decouvert.php">
@@ -39,15 +39,13 @@
                     <a class="nav-link button" href="../connexion_inscription/index.php" ><strong>Se Connecter</strong></a>
                   </li>
                 </ul>  
-                <form class="d-flex">
-                  <button class="btn btn-outline-dark color" type="submit">
-                  <a class="A" href="../panier/panier.php">
-                <img src="../../Images/shopping-cart.png" alt="shopping-cart" class="cart">
-                     <strong>Panier</strong>
-                     <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-              </a>
-                  </button>
-                </form>
+                <a href="../panier/panier.php">
+                    <button class="btn btn-outline-dark color" type="submit">
+                        <img src="../../Images/shopping-cart.png" alt="shopping-cart" class="cart">
+                        <strong>Panier</strong>
+                        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </button>
+                 </a>
               </div>
               
             </div>
@@ -150,8 +148,14 @@
                                             <p class="info1">Jeune start-up novatrice spécialisée dans la vente de produit divers, aussi bien des produits électroniques, mécanique, textiles... Nous avons pour but d’étendre notre e-commerce à une échelle européenne dans les 5 ans à venir</p>
                                         </div>
                                         <div>
-                                            <a class="lien" href="../Mention-legal/mention-legal.html">Mention legal</a>
-                                        </div>
+                                    <a class="lien" href="../Mention-legal/mention-legal.php">Mention legal</a>
+                                </div>
+                                <div>
+                                  <a class="lien" href="../Mention-legal/conditions-generales.php">Conditions-generales</a>
+                              </div>
+                              <div>
+                                <a class="lien" href="../Mention-legal/politique.php">Politique</a>
+                            </div>
                                         
                                     </div>           
                            
@@ -200,6 +204,14 @@
             .couleur:hover{
                 background-color: #eb5a00;
             }
+            
+            .blanc{
+                background-color: white !important;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            
+            
         </style>
         </body>
 </html>

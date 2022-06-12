@@ -19,7 +19,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse blanc" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="../Decouvert/decouvert.php">
@@ -35,15 +35,13 @@
                 <a class="nav-link button" href="../connexion_inscription/index.php" ><strong>Se Connecter</strong></a>
               </li>
             </ul>  
-            <form class="d-flex">
-              <button class="btn btn-outline-dark color" type="submit">
-                  <a class="A" href="./panier.html">
-               <img src="../../Images/shopping-cart.png" alt="shopping-cart" class="cart">
-                    <strong>Panier</strong>
-                    <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-                    </a>
-              </button>
-            </form>
+            <a href="../panier/panier.php">
+                    <button class="btn btn-outline-dark color" type="submit">
+                        <img src="../../Images/shopping-cart.png" alt="shopping-cart" class="cart">
+                        <strong>Panier</strong>
+                        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </button>
+                 </a>
           </div>
           
         </div>
@@ -80,7 +78,7 @@
             <span class="cart-index">1.</span>
             <div class="product">
               <div class="product-left">
-                <a href="../../Page produit/Page produit Clio 4.html">
+                <a href="../../Page produit/Page produit Clio 4.php">
                   <img class="image" src="https://user-images.githubusercontent.com/97881881/169657881-74e8fea8-2ff4-4f96-898f-89d1bbb9e70e.jpg" alt=""
                 /></a>
                 <div class="book">
@@ -108,7 +106,7 @@
                 /></a>
                 <div class="book">
                   <div class="bookInfo">
-                    <a class="titre-produit" href="../../Page produit/Page PQ OM.html">PQ - OM</a>
+                    <a class="titre-produit" href="../../Page produit/Page PQ OM.php">PQ - OM</a>
                     <h4>Papier toilettes</h4>
                   </div>
                 </div>
@@ -155,8 +153,14 @@
                                       <p class="info1">Jeune start-up novatrice spécialisée dans la vente de produit divers, aussi bien des produits électroniques, mécanique, textiles... Nous avons pour but d’étendre notre e-commerce à une échelle européenne dans les 5 ans à venir</p>
                                   </div>
                                   <div>
-                                    <a class="lien" href="../Mention-legal/mention-legal.html">Mention legal</a>
+                                    <a class="lien" href="../Mention-legal/mention-legal.php">Mention legal</a>
                                 </div>
+                                <div>
+                                  <a class="lien" href="../Mention-legal/conditions-generales.php">Conditions-generales</a>
+                              </div>
+                              <div>
+                                <a class="lien" href="../Mention-legal/politique.php">Politique</a>
+                            </div>
                               </div>           
                      
                   <!-- Copy-Right -->
@@ -176,6 +180,16 @@
       </div>
       <!-- Footer End-->
   </footer>
+
+  <style>
+      .blanc{
+        background-color: white !important;
+          padding: 10px;
+          border-radius: 10px;
+      }
+            
+            
+        </style>
     </body>
-  </body>
+
 </html>

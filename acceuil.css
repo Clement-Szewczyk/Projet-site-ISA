@@ -4,3 +4,11 @@
 }
 
 
+.blanc{
+    background-color: white !important;
+    height: 90%;
+    border-radius: 10px;
+  }
+
+.bac{
+    padding-bottom: 90px;}
