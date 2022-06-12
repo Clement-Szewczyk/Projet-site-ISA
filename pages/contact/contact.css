@@ -49,7 +49,7 @@ section h3{
 
 input{
   font-size:0.85em;
-  width: 470px;
+  width: 70% !important;
   height: 50px;
   padding: 0px 15px;
   background: transparent;
@@ -60,7 +60,7 @@ input{
 }
 
 textarea{
-  width: 470px;
+  width: 70% !important;
   height: 110px;
   max-height: 110px;
   padding: 15px;
@@ -113,6 +113,3 @@ section p{
   letter-spacing: 0.3em;
 }
 
-.long{
-  width: 90% !important;
-}

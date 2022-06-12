@@ -14,20 +14,20 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="../../acceuil/index.php">
+        <a class="navbar-brand" href="../../index.php">
           <img src="../../Images/adibaba.png" alt="logo" class="img-logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse blanc" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../Decouvert/decouvert.html">
+              <a class="nav-link" aria-current="page" href="../Decouvert/decouvert.php">
                 <img src="../../Images/person.svg" alt="Personne"><strong>Nous-découvrir</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../contact/contact.html">
+              <a class="nav-link" href="../contact/contact.php">
                 <img src="../../Images/telephone.svg" alt="tel">
                 <strong>Nous contacter</strong>
               </a>
@@ -38,7 +38,7 @@
           </ul>  
           <form class="d-flex">
             <button class="btn btn-outline-dark color" type="submit">
-              <a class="A" href="../panier/panier.html">
+              <a class="A" href="../panier/panier.php">
                 <img src="../../Images/shopping-cart.png" alt="shopping-cart" class="cart">
                      <strong>Panier</strong>
                      <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
@@ -49,7 +49,7 @@
         
       </div>
     </nav>
-        <script src="../bibliothèque/bootstrap-5.1.3/js/bootstrap.min.js"></script>
+        <script src="../../bibliothèque/bootstrap-5.1.3/js/bootstrap.min.js"></script>
         <header class=" py-3 fonce marge">
           <div class="clair">
           <div class="container d-flex align-items-center flex-column">
@@ -250,13 +250,13 @@
                                       <p class="info1">Jeune start-up novatrice spécialisée dans la vente de produit divers, aussi bien des produits électroniques, mécanique, textiles... Nous avons pour but d’étendre notre e-commerce à une échelle européenne dans les 5 ans à venir</p>
                                   </div>
                                   <div>
-                                    <a class="lien" href="./Mention-legal/mention-legal.php">Mention legal</a>
+                                    <a class="lien" href="./mention-legal.php">Mention legal</a>
                                 </div>
                                 <div>
-                                  <a class="lien" href="./Mention-legal/conditions-generales.php">Conditions-generales</a>
+                                  <a class="lien" href="./conditions-generales.php">Conditions-generales</a>
                               </div>
                               <div>
-                                <a class="lien" href="./Mention-legal/politique.php">Politique</a>
+                                <a class="lien" href="./politique.php">Politique</a>
                             </div>
                               </div>           
                      
@@ -277,5 +277,14 @@
       </div>
       <!-- Footer End-->
   </footer>
+  <style>
+            .blanc{
+                background-color: white !important;
+                padding: 10px;
+                border-radius: 10px;
+            }
+            
+            
+        </style>
   </body>
 </html>
