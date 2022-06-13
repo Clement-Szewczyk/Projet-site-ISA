@@ -1,7 +1,7 @@
 <?php
     try
     {
-        $bdd = new PDO('mysql:host=mysql-clementszewczyk.alwaysdata.net; dbname=clementszewczyk_test; charset=utf8', '263261','Bonjour.Coucou');
+        $bdd = new PDO('mysql:host=mysql-clementszewczyk.alwaysdata.net; dbname=clementszewczyk_test; charset=utf8', '263261','MDP');
     }catch(Exeption $e)
     {
         die('Erreur de connexion : '. $e->getMessage());
